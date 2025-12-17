@@ -1,0 +1,4 @@
+{"type":"call","id":1,"tool":"get_all_states","args":{}}
+{"type":"call","id":2,"tool":"set_light_state","args":{"name":"salon","on":true}}
+{"type":"call","id":3,"tool":"list_lights_on","args":{}}
+{"type":"quit"}

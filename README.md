@@ -1,13 +1,36 @@
- **MCP Home Simulator (Python)**  
- Simulador de domótica con luces configurables, alarma y detector de presencia, accesible por **terminal** y por **MCP (stdio)**.
+# MCP Home Simulator
 
- ### Instalación
+Simulador de sistema domótico compatible con **Model Context Protocol (MCP)** que permite controlar luces, alarma y detector de presencia tanto por **línea de comandos (CLI)** como por **stdio** (para integración con IA).
 
- ```bash
- python -m venv .venv
- source .venv/bin/activate  # en Windows: .venv\\Scripts\\activate
- pip install -e .
- ```
+## 🏠 Características
+
+- **Luces configurables**: Define tus propias luces en `config.yaml`
+- **Sistema de alarma**: Arma y desarma la alarma
+- **Detector de presencia**: Rastrea quién está en casa
+- **Doble interfaz**:
+  - **CLI**: Comandos interactivos por terminal
+  - **MCP stdio**: Protocolo JSON para integración con IA
+
+## 📦 Instalación
+
+### Desde el código fuente
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/tu-usuario/mcp-home-simulator.git
+cd mcp-home-simulator
+
+# Instalar en modo desarrollo
+pip install -e .
+
+# O instalar con dependencias de desarrollo
+pip install -e ".[dev]"
+```
+
+### Requisitos
+
+- Python 3.8 o superior
+- pyyaml
 
  ### Configuración
 
