@@ -1,0 +1,12 @@
+lights:
+  - salon
+  - cocina
+  - dormitorio
+  - bano
+  - garage
+
+alarm_default: false
+
+presence_default:
+  present: false
+  known_people: []
